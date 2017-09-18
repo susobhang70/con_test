@@ -1,0 +1,16 @@
+ Performance counter stats for './mergesortscript.sh random.txt sorted.txt':
+
+     693201.749195      task-clock (msec)         #    1.037 CPUs utilized          
+         26,37,512      context-switches          #    0.004 M/sec                  
+            49,932      cpu-migrations            #    0.072 K/sec                  
+          7,52,711      page-faults               #    0.001 M/sec                  
+13,50,43,24,14,447      cycles                    #    1.948 GHz                     [50.05%]
+                 0      stalled-cycles-frontend   #    0.00% frontend cycles idle    [50.15%]
+                 0      stalled-cycles-backend    #    0.00% backend  cycles idle    [50.05%]
+10,38,41,52,05,272      instructions              #    0.77  insns per cycle         [50.02%]
+ 2,21,77,64,57,943      branches                  #  319.931 M/sec                   [49.91%]
+    4,54,17,71,703      branch-misses             #    2.05% of all branches         [50.02%]
+
+     668.397767750 seconds time elapsed
+
+

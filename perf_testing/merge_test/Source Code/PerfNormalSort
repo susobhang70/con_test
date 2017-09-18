@@ -1,0 +1,15 @@
+ Performance counter stats for 'sort -n -T /media/susobhan/EADA79CADA799413/Code/ random.txt':
+
+     705835.908450      task-clock (msec)         #    1.455 CPUs utilized          
+         12,36,201      context-switches          #    0.002 M/sec                  
+            24,215      cpu-migrations            #    0.034 K/sec                  
+            36,397      page-faults               #    0.052 K/sec                  
+13,73,18,11,43,584      cycles                    #    1.945 GHz                     [49.95%]
+                 0      stalled-cycles-frontend   #    0.00% frontend cycles idle    [49.93%]
+                 0      stalled-cycles-backend    #    0.00% backend  cycles idle    [49.97%]
+ 9,68,05,56,10,885      instructions              #    0.70  insns per cycle         [50.06%]
+ 2,05,90,16,88,296      branches                  #  291.713 M/sec                   [50.08%]
+    4,06,64,63,792      branch-misses             #    1.97% of all branches         [50.04%]
+
+     485.257774217 seconds time elapsed
+

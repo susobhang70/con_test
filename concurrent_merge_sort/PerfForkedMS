@@ -1,0 +1,16 @@
+ Performance counter stats for './mergesortfork':
+
+       1796.436725      task-clock (msec)         #    3.344 CPUs utilized          
+             3,029      context-switches          #    0.002 M/sec                  
+             1,331      cpu-migrations            #    0.741 K/sec                  
+            50,229      page-faults               #    0.028 M/sec                  
+      93,44,63,328      cycles                    #    0.520 GHz                     [72.75%]
+                 0      stalled-cycles-frontend   #    0.00% frontend cycles idle    [92.80%]
+                 0      stalled-cycles-backend    #    0.00% backend  cycles idle    [97.33%]
+      53,55,84,337      instructions              #    0.57  insns per cycle         [92.87%]
+       8,57,13,450      branches                  #   47.713 M/sec                   [78.30%]
+         18,28,297      branch-misses             #    2.13% of all branches         [64.94%]
+
+       0.537142839 seconds time elapsed
+
+
