@@ -55,4 +55,4 @@ Generate a file > 1GB in size containing integers and run the `sort` command on 
 Write a script which splits the file into two parts recursively and then runs the sort command once the `size of the split` is at `below some threshold`, say `10MB`, `100MB` or `200MB` and so on, and then performs a `merge` operation. Run perf on the script you write for each of the thresholds chosen and compare how the results of perf vary with increase in the threshold size, or number of splits.
 
 ### NOTE 
-Each problem has its own `readme.md` and `analysis` (wherever required). The `combined analysis report` is in this directory (`project root directory`)
+Each problem has its own `readme.md` and `analysis` (wherever required).
